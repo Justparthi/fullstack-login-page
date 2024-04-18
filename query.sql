@@ -1,0 +1,9 @@
+
+CREATE DATABASE login
+
+
+CREATE TABLE userinfo(
+	id SERIAL PRIMARY KEY,
+	username VARCHAR(69) UNIQUE,
+	password VARCHAR(69)
+)
